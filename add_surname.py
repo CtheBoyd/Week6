@@ -1,7 +1,10 @@
 fore = ["Kiki", "Krystal", "Pavel", "Marykay", "Annie", "Koala"]
-surname = ["Kardashian"]
-k_fore = [i +' ' "Kardashian" for i in fore if i[0] == ("K")]
-
-print(k_fore)
+surname = "Kardashian"
 
 
+def add_surname():
+    k_fore = [i + " " + surname for i in fore if i[0] == "K"]
+    return k_fore
+
+
+print(add_surname())
