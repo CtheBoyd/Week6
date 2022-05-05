@@ -12,5 +12,5 @@ def find_median(some_nums):
     else:
         return (some_nums[len(some_nums) // 2-1] + some_nums[len(some_nums // 2)]) / 2
 
-some_nums = [13,7,-3,82,4]
-print(find_median(some_nums))
+#some_nums = [13,7,-3,82,4]
+#print(find_median(some_nums))
