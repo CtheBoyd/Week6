@@ -2,7 +2,7 @@
 # GitHub username: CtheBoyd
 # Date: 5/4/2022
 # Description: Takes a list of numbers and returns a median value.
-#
+##
 
 def find_median(some_nums):
     """Takes a list of numbers and returns a median value."""
